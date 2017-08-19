@@ -1,0 +1,776 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C11High_Roller14ViewController"
+provides-member:
+- ["C11High_Roller14ViewController", ""]
+- ["C11High_Roller14ViewController", "numberOfDiceTextFieldChanged"]
+- ["C11High_Roller14ViewController", "numberOfDiceStepperChanged"]
+- ["C11High_Roller14ViewController", "numberOfSidesPopupChanged"]
+- ["C11High_Roller14ViewController", "rollButtonClicked"]
+- ["C11High_Roller14ViewController", "getRollDataFromWebButtonClicked"]
+provides-dynamic-lookup:
+- "getRollDataFromWebButtonClicked"
+- "numberOfDiceStepper"
+- "numberOfDiceStepperChanged"
+- "numberOfDiceTextField"
+- "numberOfDiceTextFieldChanged"
+- "numberOfSidesPopup"
+- "numberOfSidesPopupChanged"
+- "representedObject"
+- "resultsStackView"
+- "resultsTextView"
+- "rollButton"
+- "rollButtonClicked"
+- "viewDidLoad"
+depends-top-level:
+- !private "<="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "DispatchQueue"
+- !private "Int"
+- "NSButton"
+- "NSPopUpButton"
+- "NSStackView"
+- "NSStepper"
+- "NSTextField"
+- "NSTextView"
+- "NSViewController"
+- "Roll"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "ViewController"
+- "WebSource"
+- !private "min"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Roll"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "WebSource"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "displayDiceFromRoll"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "integerValue"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "min"]
+- !private ["Ps9AnyObject", "numberOfDiceStepper"]
+- !private ["Ps9AnyObject", "numberOfDiceTextField"]
+- !private ["Ps9AnyObject", "numberOfDiceTextFieldChanged"]
+- !private ["Ps9AnyObject", "numberOfSidesPopup"]
+- !private ["Ps9AnyObject", "resultsTextView"]
+- !private ["Ps9AnyObject", "roll"]
+- !private ["Ps9AnyObject", "selectItem"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "stringValue"]
+- !private ["Ps9AnyObject", "titleOfSelectedItem"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "webSource"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "enumerated"]
+- !private ["Ps23BidirectionalCollection", "enumerated"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "Roll"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "WebSource"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "displayDiceFromRoll"]
+- !private ["Ps7CVarArg", "enumerated"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "integerValue"]
+- !private ["Ps7CVarArg", "isEnabled"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "min"]
+- !private ["Ps7CVarArg", "numberOfDiceStepper"]
+- !private ["Ps7CVarArg", "numberOfDiceTextField"]
+- !private ["Ps7CVarArg", "numberOfDiceTextFieldChanged"]
+- !private ["Ps7CVarArg", "numberOfSidesPopup"]
+- !private ["Ps7CVarArg", "resultsTextView"]
+- !private ["Ps7CVarArg", "roll"]
+- !private ["Ps7CVarArg", "selectItem"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "stringValue"]
+- !private ["Ps7CVarArg", "titleOfSelectedItem"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "webSource"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "enumerated"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "Roll"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "WebSource"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "displayDiceFromRoll"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerated"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "integerValue"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "min"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfDiceStepper"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfDiceTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfDiceTextFieldChanged"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfSidesPopup"]
+- !private ["Ps28CustomDebugStringConvertible", "resultsTextView"]
+- !private ["Ps28CustomDebugStringConvertible", "roll"]
+- !private ["Ps28CustomDebugStringConvertible", "selectItem"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "stringValue"]
+- !private ["Ps28CustomDebugStringConvertible", "titleOfSelectedItem"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "webSource"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "enumerated"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "Roll"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "WebSource"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "displayDiceFromRoll"]
+- !private ["Ps23CustomStringConvertible", "enumerated"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "integerValue"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- !private ["Ps23CustomStringConvertible", "numberOfDiceStepper"]
+- !private ["Ps23CustomStringConvertible", "numberOfDiceTextField"]
+- !private ["Ps23CustomStringConvertible", "numberOfDiceTextFieldChanged"]
+- !private ["Ps23CustomStringConvertible", "numberOfSidesPopup"]
+- !private ["Ps23CustomStringConvertible", "resultsTextView"]
+- !private ["Ps23CustomStringConvertible", "roll"]
+- !private ["Ps23CustomStringConvertible", "selectItem"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "stringValue"]
+- !private ["Ps23CustomStringConvertible", "titleOfSelectedItem"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "webSource"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "Roll"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "WebSource"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "displayDiceFromRoll"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "integerValue"]
+- !private ["Ps9Equatable", "isEnabled"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9Equatable", "numberOfDiceStepper"]
+- !private ["Ps9Equatable", "numberOfDiceTextField"]
+- !private ["Ps9Equatable", "numberOfDiceTextFieldChanged"]
+- !private ["Ps9Equatable", "numberOfSidesPopup"]
+- !private ["Ps9Equatable", "resultsTextView"]
+- !private ["Ps9Equatable", "roll"]
+- !private ["Ps9Equatable", "selectItem"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "stringValue"]
+- !private ["Ps9Equatable", "titleOfSelectedItem"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "webSource"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "enumerated"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "Roll"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "WebSource"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "displayDiceFromRoll"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "integerValue"]
+- !private ["Ps8Hashable", "isEnabled"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Ps8Hashable", "numberOfDiceStepper"]
+- !private ["Ps8Hashable", "numberOfDiceTextField"]
+- !private ["Ps8Hashable", "numberOfDiceTextFieldChanged"]
+- !private ["Ps8Hashable", "numberOfSidesPopup"]
+- !private ["Ps8Hashable", "resultsTextView"]
+- !private ["Ps8Hashable", "roll"]
+- !private ["Ps8Hashable", "selectItem"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "stringValue"]
+- !private ["Ps8Hashable", "titleOfSelectedItem"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "webSource"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "enumerated"]
+- !private ["PSo15NSAccessibility", "integerValue"]
+- !private ["PSo15NSAccessibility", "isEnabled"]
+- !private ["PSo15NSAccessibility", "selectItem"]
+- !private ["PSo15NSAccessibility", "string"]
+- !private ["PSo15NSAccessibility", "stringValue"]
+- !private ["PSo15NSAccessibility", "titleOfSelectedItem"]
+- !private ["PSo21NSAccessibilityButton", "isEnabled"]
+- !private ["PSo21NSAccessibilityButton", "selectItem"]
+- !private ["PSo21NSAccessibilityButton", "titleOfSelectedItem"]
+- !private ["PSo30NSAccessibilityElementProtocol", "integerValue"]
+- !private ["PSo30NSAccessibilityElementProtocol", "isEnabled"]
+- !private ["PSo30NSAccessibilityElementProtocol", "selectItem"]
+- !private ["PSo30NSAccessibilityElementProtocol", "string"]
+- !private ["PSo30NSAccessibilityElementProtocol", "stringValue"]
+- !private ["PSo30NSAccessibilityElementProtocol", "titleOfSelectedItem"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "string"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "stringValue"]
+- !private ["PSo25NSAccessibilityStaticText", "string"]
+- !private ["PSo25NSAccessibilityStaticText", "stringValue"]
+- !private ["PSo22NSAccessibilityStepper", "integerValue"]
+- !private ["PSo29NSAnimatablePropertyContainer", "integerValue"]
+- !private ["PSo29NSAnimatablePropertyContainer", "isEnabled"]
+- !private ["PSo29NSAnimatablePropertyContainer", "selectItem"]
+- !private ["PSo29NSAnimatablePropertyContainer", "string"]
+- !private ["PSo29NSAnimatablePropertyContainer", "stringValue"]
+- !private ["PSo29NSAnimatablePropertyContainer", "titleOfSelectedItem"]
+- !private ["PSo25NSAppearanceCustomization", "integerValue"]
+- !private ["PSo25NSAppearanceCustomization", "isEnabled"]
+- !private ["PSo25NSAppearanceCustomization", "selectItem"]
+- !private ["PSo25NSAppearanceCustomization", "string"]
+- !private ["PSo25NSAppearanceCustomization", "stringValue"]
+- !private ["PSo25NSAppearanceCustomization", "titleOfSelectedItem"]
+- !private ["CSo8NSButton", "isEnabled"]
+- !private ["CSo8NSButton", "selectItem"]
+- !private ["CSo8NSButton", "titleOfSelectedItem"]
+- !private ["PSo35NSCandidateListTouchBarItemDelegate", "string"]
+- !private ["PSo16NSChangeSpelling", "string"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "Roll"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "WebSource"]
+- !private ["PSo8NSCoding", "displayDiceFromRoll"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "integerValue"]
+- !private ["PSo8NSCoding", "isEnabled"]
+- !private ["PSo8NSCoding", "min"]
+- !private ["PSo8NSCoding", "numberOfDiceStepper"]
+- !private ["PSo8NSCoding", "numberOfDiceTextField"]
+- !private ["PSo8NSCoding", "numberOfDiceTextFieldChanged"]
+- !private ["PSo8NSCoding", "numberOfSidesPopup"]
+- !private ["PSo8NSCoding", "resultsTextView"]
+- !private ["PSo8NSCoding", "roll"]
+- !private ["PSo8NSCoding", "selectItem"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "stringValue"]
+- !private ["PSo8NSCoding", "titleOfSelectedItem"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "webSource"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo9NSControl", "integerValue"]
+- !private ["CSo9NSControl", "isEnabled"]
+- !private ["CSo9NSControl", "selectItem"]
+- !private ["CSo9NSControl", "stringValue"]
+- !private ["CSo9NSControl", "titleOfSelectedItem"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo21NSDraggingDestination", "integerValue"]
+- !private ["PSo21NSDraggingDestination", "isEnabled"]
+- !private ["PSo21NSDraggingDestination", "selectItem"]
+- !private ["PSo21NSDraggingDestination", "string"]
+- !private ["PSo21NSDraggingDestination", "stringValue"]
+- !private ["PSo21NSDraggingDestination", "titleOfSelectedItem"]
+- !private ["PSo16NSDraggingSource", "string"]
+- !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "Roll"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "WebSource"]
+- !private ["PSo26NSExtensionRequestHandling", "displayDiceFromRoll"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "min"]
+- !private ["PSo26NSExtensionRequestHandling", "numberOfDiceStepper"]
+- !private ["PSo26NSExtensionRequestHandling", "numberOfDiceTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "numberOfDiceTextFieldChanged"]
+- !private ["PSo26NSExtensionRequestHandling", "numberOfSidesPopup"]
+- !private ["PSo26NSExtensionRequestHandling", "resultsTextView"]
+- !private ["PSo26NSExtensionRequestHandling", "roll"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- !private ["PSo26NSExtensionRequestHandling", "webSource"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo23NSIgnoreMisspelledWords", "string"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSButton"]
+- ["CSo8NSObject", "NSPopUpButton"]
+- ["CSo8NSObject", "NSStackView"]
+- ["CSo8NSObject", "NSStepper"]
+- ["CSo8NSObject", "NSTextField"]
+- ["CSo8NSObject", "NSTextView"]
+- ["CSo8NSObject", "Roll"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "WebSource"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "displayDiceFromRoll"]
+- ["CSo8NSObject", "getRollDataFromWebButtonClicked"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "integerValue"]
+- !private ["CSo8NSObject", "isEnabled"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "min"]
+- ["CSo8NSObject", "numberOfDiceStepper"]
+- ["CSo8NSObject", "numberOfDiceStepperChanged"]
+- ["CSo8NSObject", "numberOfDiceTextField"]
+- ["CSo8NSObject", "numberOfDiceTextFieldChanged"]
+- ["CSo8NSObject", "numberOfSidesPopup"]
+- ["CSo8NSObject", "numberOfSidesPopupChanged"]
+- ["CSo8NSObject", "representedObject"]
+- ["CSo8NSObject", "resultsStackView"]
+- ["CSo8NSObject", "resultsTextView"]
+- ["CSo8NSObject", "roll"]
+- ["CSo8NSObject", "rollButton"]
+- ["CSo8NSObject", "rollButtonClicked"]
+- !private ["CSo8NSObject", "selectItem"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "stringValue"]
+- !private ["CSo8NSObject", "titleOfSelectedItem"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "webSource"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "Roll"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "WebSource"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "displayDiceFromRoll"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "integerValue"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- !private ["PSo16NSObjectProtocol", "numberOfDiceStepper"]
+- !private ["PSo16NSObjectProtocol", "numberOfDiceTextField"]
+- !private ["PSo16NSObjectProtocol", "numberOfDiceTextFieldChanged"]
+- !private ["PSo16NSObjectProtocol", "numberOfSidesPopup"]
+- !private ["PSo16NSObjectProtocol", "resultsTextView"]
+- !private ["PSo16NSObjectProtocol", "roll"]
+- !private ["PSo16NSObjectProtocol", "selectItem"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- !private ["PSo16NSObjectProtocol", "titleOfSelectedItem"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "webSource"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["CSo13NSPopUpButton", "selectItem"]
+- !private ["CSo13NSPopUpButton", "titleOfSelectedItem"]
+- !private ["CSo11NSResponder", "DispatchQueue"]
+- !private ["CSo11NSResponder", "Int"]
+- ["CSo11NSResponder", "NSButton"]
+- ["CSo11NSResponder", "NSPopUpButton"]
+- ["CSo11NSResponder", "NSStackView"]
+- ["CSo11NSResponder", "NSStepper"]
+- ["CSo11NSResponder", "NSTextField"]
+- ["CSo11NSResponder", "NSTextView"]
+- ["CSo11NSResponder", "Roll"]
+- !private ["CSo11NSResponder", "String"]
+- ["CSo11NSResponder", "WebSource"]
+- !private ["CSo11NSResponder", "displayDiceFromRoll"]
+- ["CSo11NSResponder", "getRollDataFromWebButtonClicked"]
+- ["CSo11NSResponder", "init"]
+- !private ["CSo11NSResponder", "integerValue"]
+- !private ["CSo11NSResponder", "isEnabled"]
+- !private ["CSo11NSResponder", "min"]
+- ["CSo11NSResponder", "numberOfDiceStepper"]
+- ["CSo11NSResponder", "numberOfDiceStepperChanged"]
+- ["CSo11NSResponder", "numberOfDiceTextField"]
+- ["CSo11NSResponder", "numberOfDiceTextFieldChanged"]
+- ["CSo11NSResponder", "numberOfSidesPopup"]
+- ["CSo11NSResponder", "numberOfSidesPopupChanged"]
+- ["CSo11NSResponder", "representedObject"]
+- ["CSo11NSResponder", "resultsStackView"]
+- ["CSo11NSResponder", "resultsTextView"]
+- ["CSo11NSResponder", "roll"]
+- ["CSo11NSResponder", "rollButton"]
+- ["CSo11NSResponder", "rollButtonClicked"]
+- !private ["CSo11NSResponder", "selectItem"]
+- !private ["CSo11NSResponder", "string"]
+- !private ["CSo11NSResponder", "stringValue"]
+- !private ["CSo11NSResponder", "titleOfSelectedItem"]
+- ["CSo11NSResponder", "viewDidLoad"]
+- ["CSo11NSResponder", "webSource"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo17NSSeguePerforming", "DispatchQueue"]
+- !private ["PSo17NSSeguePerforming", "Int"]
+- !private ["PSo17NSSeguePerforming", "Roll"]
+- !private ["PSo17NSSeguePerforming", "String"]
+- !private ["PSo17NSSeguePerforming", "WebSource"]
+- !private ["PSo17NSSeguePerforming", "displayDiceFromRoll"]
+- !private ["PSo17NSSeguePerforming", "init"]
+- !private ["PSo17NSSeguePerforming", "min"]
+- !private ["PSo17NSSeguePerforming", "numberOfDiceStepper"]
+- !private ["PSo17NSSeguePerforming", "numberOfDiceTextField"]
+- !private ["PSo17NSSeguePerforming", "numberOfDiceTextFieldChanged"]
+- !private ["PSo17NSSeguePerforming", "numberOfSidesPopup"]
+- !private ["PSo17NSSeguePerforming", "resultsTextView"]
+- !private ["PSo17NSSeguePerforming", "roll"]
+- !private ["PSo17NSSeguePerforming", "viewDidLoad"]
+- !private ["PSo17NSSeguePerforming", "webSource"]
+- ["PSo17NSSeguePerforming", ""]
+- !private ["CSo9NSStepper", "integerValue"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo6NSText", "string"]
+- !private ["CSo11NSTextField", "stringValue"]
+- !private ["PSo11NSTextInput", "string"]
+- !private ["PSo17NSTextInputClient", "string"]
+- !private ["PSo31NSTextLayoutOrientationProvider", "string"]
+- !private ["CSo10NSTextView", "string"]
+- !private ["PSo18NSTouchBarDelegate", "string"]
+- !private ["PSo18NSTouchBarProvider", "DispatchQueue"]
+- !private ["PSo18NSTouchBarProvider", "Int"]
+- !private ["PSo18NSTouchBarProvider", "Roll"]
+- !private ["PSo18NSTouchBarProvider", "String"]
+- !private ["PSo18NSTouchBarProvider", "WebSource"]
+- !private ["PSo18NSTouchBarProvider", "displayDiceFromRoll"]
+- !private ["PSo18NSTouchBarProvider", "init"]
+- !private ["PSo18NSTouchBarProvider", "integerValue"]
+- !private ["PSo18NSTouchBarProvider", "isEnabled"]
+- !private ["PSo18NSTouchBarProvider", "min"]
+- !private ["PSo18NSTouchBarProvider", "numberOfDiceStepper"]
+- !private ["PSo18NSTouchBarProvider", "numberOfDiceTextField"]
+- !private ["PSo18NSTouchBarProvider", "numberOfDiceTextFieldChanged"]
+- !private ["PSo18NSTouchBarProvider", "numberOfSidesPopup"]
+- !private ["PSo18NSTouchBarProvider", "resultsTextView"]
+- !private ["PSo18NSTouchBarProvider", "roll"]
+- !private ["PSo18NSTouchBarProvider", "selectItem"]
+- !private ["PSo18NSTouchBarProvider", "string"]
+- !private ["PSo18NSTouchBarProvider", "stringValue"]
+- !private ["PSo18NSTouchBarProvider", "titleOfSelectedItem"]
+- !private ["PSo18NSTouchBarProvider", "viewDidLoad"]
+- !private ["PSo18NSTouchBarProvider", "webSource"]
+- ["PSo18NSTouchBarProvider", ""]
+- !private ["PSo33NSUserInterfaceItemIdentification", "DispatchQueue"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "Int"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "Roll"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "String"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "WebSource"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "displayDiceFromRoll"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "init"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "integerValue"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "isEnabled"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "min"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "numberOfDiceStepper"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "numberOfDiceTextField"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "numberOfDiceTextFieldChanged"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "numberOfSidesPopup"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "resultsTextView"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "roll"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "selectItem"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "string"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "stringValue"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "titleOfSelectedItem"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "viewDidLoad"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "webSource"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- !private ["PSo26NSUserInterfaceValidations", "isEnabled"]
+- !private ["PSo26NSUserInterfaceValidations", "selectItem"]
+- !private ["PSo26NSUserInterfaceValidations", "string"]
+- !private ["PSo26NSUserInterfaceValidations", "stringValue"]
+- !private ["PSo26NSUserInterfaceValidations", "titleOfSelectedItem"]
+- !private ["CSo6NSView", "integerValue"]
+- !private ["CSo6NSView", "isEnabled"]
+- !private ["CSo6NSView", "selectItem"]
+- !private ["CSo6NSView", "string"]
+- !private ["CSo6NSView", "stringValue"]
+- !private ["CSo6NSView", "titleOfSelectedItem"]
+- !private ["CSo16NSViewController", "DispatchQueue"]
+- !private ["CSo16NSViewController", "Int"]
+- ["CSo16NSViewController", "NSButton"]
+- ["CSo16NSViewController", "NSPopUpButton"]
+- ["CSo16NSViewController", "NSStackView"]
+- ["CSo16NSViewController", "NSStepper"]
+- ["CSo16NSViewController", "NSTextField"]
+- ["CSo16NSViewController", "NSTextView"]
+- ["CSo16NSViewController", "Roll"]
+- !private ["CSo16NSViewController", "String"]
+- ["CSo16NSViewController", "WebSource"]
+- !private ["CSo16NSViewController", "displayDiceFromRoll"]
+- ["CSo16NSViewController", "getRollDataFromWebButtonClicked"]
+- ["CSo16NSViewController", "init"]
+- !private ["CSo16NSViewController", "min"]
+- ["CSo16NSViewController", "numberOfDiceStepper"]
+- ["CSo16NSViewController", "numberOfDiceStepperChanged"]
+- ["CSo16NSViewController", "numberOfDiceTextField"]
+- ["CSo16NSViewController", "numberOfDiceTextFieldChanged"]
+- ["CSo16NSViewController", "numberOfSidesPopup"]
+- ["CSo16NSViewController", "numberOfSidesPopupChanged"]
+- ["CSo16NSViewController", "representedObject"]
+- ["CSo16NSViewController", "resultsStackView"]
+- ["CSo16NSViewController", "resultsTextView"]
+- ["CSo16NSViewController", "roll"]
+- ["CSo16NSViewController", "rollButton"]
+- ["CSo16NSViewController", "rollButtonClicked"]
+- ["CSo16NSViewController", "viewDidLoad"]
+- ["CSo16NSViewController", "webSource"]
+- ["CSo16NSViewController", ""]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps22RandomAccessCollection", "enumerated"]
+- !private ["Ps26RangeReplaceableCollection", "enumerated"]
+- !private ["V11High_Roller4Roll", "allDiceValues"]
+- !private ["V11High_Roller4Roll", "changeNumberOfDice"]
+- !private ["V11High_Roller4Roll", "changeValueForDie"]
+- !private ["V11High_Roller4Roll", "init"]
+- !private ["V11High_Roller4Roll", "numberOfSides"]
+- !private ["V11High_Roller4Roll", "rollAll"]
+- !private ["Ps8Sequence", "enumerated"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C11High_Roller14ViewController", "DispatchQueue"]
+- !private ["C11High_Roller14ViewController", "Int"]
+- ["C11High_Roller14ViewController", "NSButton"]
+- ["C11High_Roller14ViewController", "NSPopUpButton"]
+- ["C11High_Roller14ViewController", "NSStackView"]
+- ["C11High_Roller14ViewController", "NSStepper"]
+- ["C11High_Roller14ViewController", "NSTextField"]
+- ["C11High_Roller14ViewController", "NSTextView"]
+- ["C11High_Roller14ViewController", "Roll"]
+- !private ["C11High_Roller14ViewController", "String"]
+- ["C11High_Roller14ViewController", "WebSource"]
+- ["C11High_Roller14ViewController", "deinit"]
+- !private ["C11High_Roller14ViewController", "displayDiceFromRoll"]
+- ["C11High_Roller14ViewController", "getRollDataFromWebButtonClicked"]
+- ["C11High_Roller14ViewController", "init"]
+- !private ["C11High_Roller14ViewController", "min"]
+- ["C11High_Roller14ViewController", "numberOfDiceStepper"]
+- ["C11High_Roller14ViewController", "numberOfDiceStepperChanged"]
+- ["C11High_Roller14ViewController", "numberOfDiceTextField"]
+- ["C11High_Roller14ViewController", "numberOfDiceTextFieldChanged"]
+- ["C11High_Roller14ViewController", "numberOfSidesPopup"]
+- ["C11High_Roller14ViewController", "numberOfSidesPopupChanged"]
+- ["C11High_Roller14ViewController", "representedObject"]
+- ["C11High_Roller14ViewController", "resultsStackView"]
+- ["C11High_Roller14ViewController", "resultsTextView"]
+- ["C11High_Roller14ViewController", "roll"]
+- ["C11High_Roller14ViewController", "rollButton"]
+- ["C11High_Roller14ViewController", "rollButtonClicked"]
+- ["C11High_Roller14ViewController", "viewDidLoad"]
+- ["C11High_Roller14ViewController", "webSource"]
+- !private ["V11High_Roller9WebSource", "findRollOnline"]
+- !private ["V11High_Roller9WebSource", "init"]
+- !private ["Ps14_ArrayProtocol", "enumerated"]
+- !private ["Ps23_BidirectionalIndexable", "enumerated"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "integerValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectItem"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "string"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "stringValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleOfSelectedItem"]
+- !private ["Ps24_DestructorSafeContainer", "enumerated"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "Roll"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "WebSource"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "displayDiceFromRoll"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "integerValue"]
+- !private ["Ps9_Hashable", "isEnabled"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "min"]
+- !private ["Ps9_Hashable", "numberOfDiceStepper"]
+- !private ["Ps9_Hashable", "numberOfDiceTextField"]
+- !private ["Ps9_Hashable", "numberOfDiceTextFieldChanged"]
+- !private ["Ps9_Hashable", "numberOfSidesPopup"]
+- !private ["Ps9_Hashable", "resultsTextView"]
+- !private ["Ps9_Hashable", "roll"]
+- !private ["Ps9_Hashable", "selectItem"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "stringValue"]
+- !private ["Ps9_Hashable", "titleOfSelectedItem"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "webSource"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "enumerated"]
+- !private ["Ps14_IndexableBase", "enumerated"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "enumerated"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "enumerated"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "enumerated"]
+- !private ["Ps26_RangeReplaceableIndexable", "enumerated"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo15NSAccessibility"
+- !private "PSo21NSAccessibilityButton"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo34NSAccessibilityNavigableStaticText"
+- !private "PSo25NSAccessibilityStaticText"
+- !private "PSo22NSAccessibilityStepper"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- !private "CSo8NSButton"
+- !private "PSo35NSCandidateListTouchBarItemDelegate"
+- !private "PSo16NSChangeSpelling"
+- "PSo8NSCoding"
+- !private "CSo9NSControl"
+- !private "PSo9NSCopying"
+- !private "PSo21NSDraggingDestination"
+- !private "PSo16NSDraggingSource"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo23NSIgnoreMisspelledWords"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "CSo13NSPopUpButton"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- "PSo17NSSeguePerforming"
+- !private "CSo9NSStepper"
+- !private "CSo8NSString"
+- !private "CSo6NSText"
+- !private "CSo11NSTextField"
+- !private "PSo11NSTextInput"
+- !private "PSo17NSTextInputClient"
+- !private "PSo31NSTextLayoutOrientationProvider"
+- !private "CSo10NSTextView"
+- !private "PSo18NSTouchBarDelegate"
+- "PSo18NSTouchBarProvider"
+- "PSo33NSUserInterfaceItemIdentification"
+- !private "PSo26NSUserInterfaceValidations"
+- !private "CSo6NSView"
+- "CSo16NSViewController"
+- !private "CSo9OS_object"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "V11High_Roller4Roll"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C11High_Roller14ViewController"
+- !private "V11High_Roller9WebSource"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "c6273e4598f6dca9cc377f4f87512cab"
