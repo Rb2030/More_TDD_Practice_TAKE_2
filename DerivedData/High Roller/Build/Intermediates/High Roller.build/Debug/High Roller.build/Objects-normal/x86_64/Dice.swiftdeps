@@ -1,11 +1,24 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "Dice"
 provides-nominal:
+- "V11High_Roller4Dice"
 provides-member:
+- ["V11High_Roller4Dice", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "Dice"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
 depends-member:
+- ["V11High_Roller4Dice", "Int"]
+- ["V11High_Roller4Dice", "init"]
+- ["V11High_Roller4Dice", "rollDie"]
+- ["V11High_Roller4Dice", "value"]
 depends-nominal:
+- "V11High_Roller4Dice"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
@@ -30,4 +43,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "97c4a31b01ade29eec9788407df04128"

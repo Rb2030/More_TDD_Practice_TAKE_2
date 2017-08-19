@@ -1,0 +1,319 @@
+00:20:11.459 Xcode[3084:352963] Beginning test session High RollerUITests-E8F5D042-52A0-49CA-867C-A45E93C9DD36 at 2017-08-20 00:20:11.459 with Xcode 8E3004b on target <DVTLocalComputer: 0x7ff0ad072260 (My Mac | x86_64h)> (10.12.6 (16G29))
+00:20:11.459 Xcode[3084:352963] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:20:11.460 Xcode[3084:426369] Waiting for connection to unix domain socket at /tmp/XCTest-I92bwL.
+00:20:16.171 Xcode[3084:352963] Launch session started.
+00:20:16.277 Xcode[3084:352963] Adding console adaptor <IDEConsoleAdaptor: 0x7ff0afb6dc50 'target'> for test session E8F5D042-52A0-49CA-867C-A45E93C9DD36.
+00:20:16.298 Xcode[3084:352963] Test process runnable PID is 4771.
+00:20:18.070 Xcode[3084:426665] Got a connection (socket 60), closing the listen socket now.
+00:20:18.071 Xcode[3084:426665] Setting up the socket transport for a test runner connection at /tmp/XCTest-I92bwL
+00:20:18.071 Xcode[3084:426665] Received connection for test runner session
+00:20:18.071 Xcode[3084:426665] Listening for proxy connection request from the test bundle
+00:20:18.071 Xcode[3084:352963] Test runner session acquired connection.
+00:20:18.071 Xcode[3084:352963] Waiting for test process to check in..., will wait up to 120s
+00:20:18.072 Xcode[3084:426665] Handling proxy channel request from test runner
+00:20:18.073 Xcode[3084:426665] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+00:20:18.073 Xcode[3084:352963] Test runner session successfully initiated.
+00:20:18.073 Xcode[3084:426664] calling checkUITestingPermissionForXcodeUITestingAgentWithPrompt:NO
+00:20:18.081 Xcode[3084:426665] got reply to checkUITestingPermissionForXcodeUITestingAgentWithPrompt(NO): isPermitted:YES error:(null)
+00:20:18.094 Xcode[3084:426665] Successfully made Xcode Helper the responsible process for the test session.
+00:20:18.069 XCTRunner[4771:427115] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Versions/A/XCTest, built with Xcode 0833(8E3002), modified on Thursday, 11 May 2017 at 06:10:43 British Summer Time
+00:20:18.069 XCTRunner[4771:427115] XCTest.framework bundle version: 12124
+00:20:18.070 XCTRunner[4771:427115] System uptime: 11:02:22
+00:20:18.070 XCTRunner[4771:427115] Process arguments: (
+    "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High RollerUITests-Runner.app/Contents/MacOS/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+00:20:18.070 XCTRunner[4771:427115] Process environment: {
+    "APP_SANDBOX_CONTAINER_ID" = "com.apple.test.High-RollerUITests-Runner";
+    "Apple_PubSub_Socket_Render" = "/private/tmp/com.apple.launchd.CiOEVbjAmF/Render";
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Containers/com.apple.test.High-RollerUITests-Runner/Data";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    HOME = "/Users/Ross/Library/Containers/com.apple.test.High-RollerUITests-Runner/Data";
+    LOGNAME = Ross;
+    MallocNanoZone = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+    PWD = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    SHELL = "/bin/bash";
+    "SSH_AUTH_SOCK" = "/private/tmp/com.apple.launchd.avhGn7S25t/Listeners";
+    TMPDIR = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.test.High-RollerUITests-Runner/";
+    USER = Ross;
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/E8F5D042-52A0-49CA-867C-A45E93C9DD36/remote-container/tmp/High RollerUITests-E8F5D042-52A0-49CA-867C-A45E93C9DD36.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "com.apple.dt.Xcode.12892";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0x0:0x2";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+}
+00:20:18.070 XCTRunner[4771:427115] Creating unix domain socket, will connect to path /tmp/XCTest-I92bwL
+00:20:18.070 XCTRunner[4771:427115] Verifying path to socket /tmp/XCTest-I92bwL (length 18)
+00:20:18.070 XCTRunner[4771:427115] Connecting to socket
+00:20:18.070 XCTRunner[4771:427115] Connected socket 3
+00:20:18.070 XCTRunner[4771:427115] Creating transport with socket 3
+00:20:18.071 XCTRunner[4771:427115] Creating connection with transport <DTXSocketTransport: 0x6080001003f0>
+00:20:18.072 XCTRunner[4771:427115] Creating the proxy channel with connection <DTXConnection 0x6080001e0200 : x1>
+00:20:18.072 XCTRunner[4771:427115] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+00:20:18.073 XCTRunner[4771:427115] <XCTWaiter: 0x600000000c20> entering wait loop for 30.00s
+00:20:18.073 XCTRunner[4771:427407] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+00:20:18.095 XCTRunner[4771:427407] _IDE_startExecutingTestPlanWithProtocolVersion:22
+00:20:18.095 XCTRunner[4771:427409] <XCTWaiter: 0x600000000c20>: cancelWaiting
+00:20:18.095 XCTRunner[4771:427115] <XCTWaiter: 0x600000000c20> done waiting
+00:20:18.095 XCTRunner[4771:427115] <XCTWaiter: 0x600000000c20> cleaning up IDE session ready for test plan
+00:20:18.098 Xcode[3084:352963] Starting test plan, clearing initialization timeout timer.
+00:20:18.098 XCTRunner[4771:427115] Initializing for UI testing.
+00:20:18.104 XCTRunner[4771:427115] Done initializing for UI testing.
+00:20:18.104 XCTRunner[4771:427115] Loading test suite...
+00:20:18.114 XCTRunner[4771:427115] Finished loading test suite, took 0.010s
+00:20:18.114 XCTRunner[4771:427115] -[XCTRunnerIDESession testBundleWillStart:]
+00:20:18.114 XCTRunner[4771:427115] Running suite...
+00:20:18.115 XCTRunner[4771:427115] -[XCTRunnerIDESession testSuiteWillStart:]
+00:20:18.116 Xcode[3084:352963] _XCT_testSuite:All tests didStartAt:2017-08-19 23:20:18 +0000
+00:20:21.006 Xcode[3084:426562] (LOG ARBITER) Dumping buffered message data; 0 messages.
+00:20:21.135 Xcode[3084:426560] (LOG ARBITER) Rotating message buffer with 213 messages.
+2017-08-20 00:20:18.020900+0100 XCTRunner[4771:427115] Running tests...
+Test Suite 'All tests' started at 2017-08-20 00:20:18.114
+Test Suite 'High RollerUITests.xctest' started at 2017-08-20 00:20:18.115
+00:20:18.115 XCTRunner[4771:427115] -[XCTRunnerIDESession testSuiteWillStart:]
+00:20:18.116 Xcode[3084:352963] _XCT_testSuite:High RollerUITests.xctest didStartAt:2017-08-19 23:20:18 +0000
+Test Suite 'High_RollerUITests' started at 2017-08-20 00:20:18.116
+00:20:18.117 Xcode[3084:352963] _XCT_testSuite:High_RollerUITests didStartAt:2017-08-19 23:20:18 +0000
+00:20:18.116 XCTRunner[4771:427115] -[XCTRunnerIDESession testSuiteWillStart:]
+00:20:18.116 XCTRunner[4771:427115] -[XCTRunnerIDESession testCaseWillStart:] High_RollerUITests.High_RollerUITests testExample
+00:20:18.117 Xcode[3084:352963] _XCT_testCaseDidStartForTestClass:High_RollerUITests.High_RollerUITests method:testExample
+Test Case '-[High_RollerUITests.High_RollerUITests testExample]' started.
+00:20:18.117 XCTRunner[4771:427115] -[High_RollerUITests testExample] started activity <XCActivityRecord: 0x6000000a0fc0> 2017-08-19 23:20:18 +0000: Start Test at 2017-08-20 00:20:18.117
+00:20:18.119 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] will start activity F4A7C336-73EA-4999-AA62-1F5C56DB95E8:'Start Test at 2017-08-20 00:20:18.117'
+00:20:18.118 XCTRunner[4771:427115] -[High_RollerUITests testExample] finished activity <XCActivityRecord: 0x6000000a0fc0> 2017-08-19 23:20:18 +0000: Start Test at 2017-08-20 00:20:18.117 (0.000712991s)
+00:20:18.119 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] did finish activity F4A7C336-73EA-4999-AA62-1F5C56DB95E8:'Start Test at 2017-08-20 00:20:18.117'
+00:20:18.119 XCTRunner[4771:427115] -[High_RollerUITests testExample] started activity <XCActivityRecord: 0x6000000a0fc0> 2017-08-19 23:20:18 +0000: Set Up
+00:20:18.120 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] will start activity 2105A9D4-DAAD-4EBB-A362-5D698709BAE5:'Set Up'
+00:20:18.120 XCTRunner[4771:427115] Monitor: created XCUIApplicationImpl for net.troz.High-Roller@/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app
+00:20:18.120 XCTRunner[4771:427115] <XCTWaiter: 0x608000000710> entering wait loop for 60.00s
+00:20:18.120 XCTRunner[4771:427409] App state updated for <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app>: Not Running (1)
+00:20:18.120 XCTRunner[4771:427409] <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app> changing currentProcess from (null) to <XCUIApplicationProcess: 0x6080000c28b0 (null) (0)>
+00:20:18.121 XCTRunner[4771:427409] Done setting pid for <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app> to 0
+00:20:18.121 XCTRunner[4771:427412] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)> application state Unknown (0) -> Not Running (1)
+00:20:18.121 XCTRunner[4771:427406] <XCTWaiter: 0x608000000710>: cancelWaiting
+00:20:18.121 XCTRunner[4771:427115] <XCTWaiter: 0x608000000710> done waiting
+00:20:18.121 XCTRunner[4771:427115] <XCTWaiter: 0x608000000710> cleaning up Expect predicate `BLOCKPREDICATE(0x608000044080)` for object BLOCKPREDICATE(0x608000044080)
+00:20:18.121 XCTRunner[4771:427115] Launching target application with arguments and environment variables:
+(
+)
+{
+}
+00:20:18.121 XCTRunner[4771:427115] -[High_RollerUITests testExample] started activity <XCActivityRecord: 0x6080000a1560> 2017-08-19 23:20:18 +0000: Launch net.troz.High-Roller
+00:20:18.122 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] will start activity ECBCBD54-1956-4E01-8086-8C5A58702582:'Launch net.troz.High-Roller'
+00:20:18.253 XCTRunner[4771:427115] <XCTWaiter: 0x6080000007c0> entering wait loop for 60.00s
+00:20:18.354 XCTRunner[4771:427410] <XCTWaiter: 0x6080000007c0>: cancelWaiting
+00:20:18.354 XCTRunner[4771:427115] <XCTWaiter: 0x6080000007c0> done waiting
+00:20:18.354 XCTRunner[4771:427115] <XCTWaiter: 0x6080000007c0> cleaning up Expect predicate `BLOCKPREDICATE(0x6000000456a0)` for object BLOCKPREDICATE(0x6000000456a0)
+00:20:18.354 XCTRunner[4771:427115] Launching <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app> via Xcode with args: env:{
+}
+00:20:18.354 Xcode[3084:426562] Dispatching!
+00:20:18.355 Xcode[3084:352963] Test runner session received application launch request: <XCTProcessLaunchParameters: 0x7ff0b1eef6c0> bundleID: net.troz.High-Roller, path: /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app
+00:20:18.354 XCTRunner[4771:427115] <XCTWaiter: 0x600000001070> entering wait loop for 60.00s
+00:20:18.358 Xcode[3084:352963] Stored token 3 for launch of net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app
+00:20:18.358 Xcode[3084:352963] Invoking receipt with: 3, (null)
+00:20:18.358 XCTRunner[4771:427412] Got launch request reply from Xcode, token/error: 3
+00:20:18.358 XCTRunner[4771:427412] Got launch request reply from Xcode, token 3, error (null)
+00:20:18.358 XCTRunner[4771:427412] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)> setting launch token to 3
+00:20:18.359 XCTRunner[4771:427410] Monitor: set <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)> for token 3
+00:20:18.359 XCTRunner[4771:427412] <XCTWaiter: 0x600000001070>: cancelWaiting
+00:20:18.359 XCTRunner[4771:427115] <XCTWaiter: 0x600000001070> done waiting
+00:20:18.364 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:18.364 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:18.359 XCTRunner[4771:427115] <XCTWaiter: 0x600000001070> cleaning up Expect predicate `BLOCKPREDICATE(0x600000045f10)` for object BLOCKPREDICATE(0x600000045f10)
+00:20:18.359 XCTRunner[4771:427115] Waiting for Xcode to confirm launch completion...
+00:20:18.359 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:18.359 XCTRunner[4771:427115] <XCTWaiter: 0x600000001110> entering wait loop for 60.00s
+00:20:18.365 XCTRunner[4771:427409] Got status/error: 0 for token 3
+00:20:18.365 XCTRunner[4771:427409] 	Got status 0 for token 3
+00:20:18.365 XCTRunner[4771:427411] <XCTWaiter: 0x600000001110>: cancelWaiting
+00:20:18.365 XCTRunner[4771:427115] <XCTWaiter: 0x600000001110> done waiting
+00:20:18.365 XCTRunner[4771:427115] <XCTWaiter: 0x600000001110> cleaning up Expect predicate `BLOCKPREDICATE(0x6000000462a0)` for object BLOCKPREDICATE(0x6000000462a0)
+00:20:18.365 XCTRunner[4771:427115] 	Throttling status checking for 0.193886s...
+00:20:18.564 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:18.565 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:18.565 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:18.565 XCTRunner[4771:427115] <XCTWaiter: 0x6080000008a0> entering wait loop for 60.00s
+00:20:18.565 XCTRunner[4771:427406] Got status/error: 0 for token 3
+00:20:18.566 XCTRunner[4771:427406] 	Got status 0 for token 3
+00:20:18.566 XCTRunner[4771:427412] <XCTWaiter: 0x6080000008a0>: cancelWaiting
+00:20:18.566 XCTRunner[4771:427115] <XCTWaiter: 0x6080000008a0> done waiting
+00:20:18.566 XCTRunner[4771:427115] <XCTWaiter: 0x6080000008a0> cleaning up Expect predicate `BLOCKPREDICATE(0x600000045eb0)` for object BLOCKPREDICATE(0x600000045eb0)
+00:20:18.566 XCTRunner[4771:427115] 	Throttling status checking for 0.198042s...
+00:20:18.769 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:18.769 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:18.769 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:18.769 XCTRunner[4771:427115] <XCTWaiter: 0x600000001140> entering wait loop for 60.00s
+00:20:18.770 XCTRunner[4771:427407] Got status/error: 0 for token 3
+00:20:18.770 XCTRunner[4771:427407] 	Got status 0 for token 3
+00:20:18.770 XCTRunner[4771:427406] <XCTWaiter: 0x600000001140>: cancelWaiting
+00:20:18.770 XCTRunner[4771:427115] <XCTWaiter: 0x600000001140> done waiting
+00:20:18.770 XCTRunner[4771:427115] <XCTWaiter: 0x600000001140> cleaning up Expect predicate `BLOCKPREDICATE(0x608000044dd0)` for object BLOCKPREDICATE(0x608000044dd0)
+00:20:18.770 XCTRunner[4771:427115] 	Throttling status checking for 0.198672s...
+00:20:18.970 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:18.970 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:18.969 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:18.970 XCTRunner[4771:427115] <XCTWaiter: 0x6000000011f0> entering wait loop for 60.00s
+00:20:18.970 XCTRunner[4771:427407] Got status/error: 0 for token 3
+00:20:18.970 XCTRunner[4771:427407] 	Got status 0 for token 3
+00:20:18.971 XCTRunner[4771:427409] <XCTWaiter: 0x6000000011f0>: cancelWaiting
+00:20:18.971 XCTRunner[4771:427115] <XCTWaiter: 0x6000000011f0> done waiting
+00:20:18.971 XCTRunner[4771:427115] <XCTWaiter: 0x6000000011f0> cleaning up Expect predicate `BLOCKPREDICATE(0x608000044da0)` for object BLOCKPREDICATE(0x608000044da0)
+00:20:18.971 XCTRunner[4771:427115] 	Throttling status checking for 0.198124s...
+00:20:19.170 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:19.170 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:19.169 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:19.170 XCTRunner[4771:427115] <XCTWaiter: 0x608000000920> entering wait loop for 60.00s
+00:20:19.171 XCTRunner[4771:427406] Got status/error: 0 for token 3
+00:20:19.171 XCTRunner[4771:427406] 	Got status 0 for token 3
+00:20:19.171 XCTRunner[4771:427411] <XCTWaiter: 0x608000000920>: cancelWaiting
+00:20:19.171 XCTRunner[4771:427115] <XCTWaiter: 0x608000000920> done waiting
+00:20:19.171 XCTRunner[4771:427115] <XCTWaiter: 0x608000000920> cleaning up Expect predicate `BLOCKPREDICATE(0x6000000468a0)` for object BLOCKPREDICATE(0x6000000468a0)
+00:20:19.171 XCTRunner[4771:427115] 	Throttling status checking for 0.198288s...
+00:20:19.375 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:19.375 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:19.375 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:19.375 XCTRunner[4771:427115] <XCTWaiter: 0x608000000a10> entering wait loop for 60.00s
+00:20:19.376 XCTRunner[4771:427410] Got status/error: 0 for token 3
+00:20:19.376 XCTRunner[4771:427410] 	Got status 0 for token 3
+00:20:19.376 XCTRunner[4771:427409] <XCTWaiter: 0x608000000a10>: cancelWaiting
+00:20:19.376 XCTRunner[4771:427115] <XCTWaiter: 0x608000000a10> done waiting
+00:20:19.376 XCTRunner[4771:427115] <XCTWaiter: 0x608000000a10> cleaning up Expect predicate `BLOCKPREDICATE(0x600000046a20)` for object BLOCKPREDICATE(0x600000046a20)
+00:20:19.376 XCTRunner[4771:427115] 	Throttling status checking for 0.198965s...
+00:20:19.580 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:19.580 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:19.580 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:19.580 XCTRunner[4771:427115] <XCTWaiter: 0x600000001290> entering wait loop for 60.00s
+00:20:19.580 XCTRunner[4771:427409] Got status/error: 0 for token 3
+00:20:19.580 XCTRunner[4771:427409] 	Got status 0 for token 3
+00:20:19.580 XCTRunner[4771:427407] <XCTWaiter: 0x600000001290>: cancelWaiting
+00:20:19.580 XCTRunner[4771:427115] <XCTWaiter: 0x600000001290> done waiting
+00:20:19.581 XCTRunner[4771:427115] <XCTWaiter: 0x600000001290> cleaning up Expect predicate `BLOCKPREDICATE(0x600000046bd0)` for object BLOCKPREDICATE(0x600000046bd0)
+00:20:19.581 XCTRunner[4771:427115] 	Throttling status checking for 0.19898s...
+00:20:19.780 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:19.780 Xcode[3084:352963] Got status 0 from operation for token 3
+00:20:19.780 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:19.780 XCTRunner[4771:427115] <XCTWaiter: 0x600000001360> entering wait loop for 60.00s
+00:20:19.781 XCTRunner[4771:427410] Got status/error: 0 for token 3
+00:20:19.781 XCTRunner[4771:427410] 	Got status 0 for token 3
+00:20:19.781 XCTRunner[4771:427410] <XCTWaiter: 0x600000001360>: cancelWaiting
+00:20:19.781 XCTRunner[4771:427115] <XCTWaiter: 0x600000001360> done waiting
+00:20:19.781 XCTRunner[4771:427115] <XCTWaiter: 0x600000001360> cleaning up Expect predicate `BLOCKPREDICATE(0x600000046e70)` for object BLOCKPREDICATE(0x600000046e70)
+00:20:19.781 XCTRunner[4771:427115] 	Throttling status checking for 0.198561s...
+00:20:19.981 Xcode[3084:352963] Test runner session received request for launch process status with token 3
+00:20:19.981 Xcode[3084:352963] Got status 1 from operation for token 3
+00:20:19.980 XCTRunner[4771:427115] 	Checking status using token 3 from <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)>
+00:20:19.981 XCTRunner[4771:427115] <XCTWaiter: 0x6000000013e0> entering wait loop for 60.00s
+00:20:19.982 XCTRunner[4771:427412] Got status/error: 1 for token 3
+00:20:19.982 XCTRunner[4771:427412] 	Got status 1 for token 3
+00:20:19.984 XCTRunner[4771:427406] <XCTWaiter: 0x6000000013e0>: cancelWaiting
+00:20:19.984 XCTRunner[4771:427115] <XCTWaiter: 0x6000000013e0> done waiting
+00:20:19.984 XCTRunner[4771:427115] <XCTWaiter: 0x6000000013e0> cleaning up Expect predicate `BLOCKPREDICATE(0x6000000473e0)` for object BLOCKPREDICATE(0x6000000473e0)
+00:20:19.984 XCTRunner[4771:427115] Xcode confirmed launch completion.
+00:20:19.984 XCTRunner[4771:427115] <XCTWaiter: 0x608000000a60> entering wait loop for 60.00s
+00:20:20.155 XCTRunner[4771:427115] Got update for <NSRunningApplication: 0x6000001041d0 (net.troz.High-Roller - 4775)> at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app
+00:20:20.155 XCTRunner[4771:427115] Checking <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app>
+00:20:20.156 XCTRunner[4771:427115] Updating pid for currentProcess <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)> to 4775
+00:20:20.156 XCTRunner[4771:427411] Setting up KVO for <NSRunningApplication: 0x6000001041d0 (net.troz.High-Roller - 4775)>
+00:20:20.156 XCTRunner[4771:427115] Done setting pid for <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app> to 4775
+00:20:20.156 XCTRunner[4771:427115] Updated <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app>
+00:20:20.156 XCTRunner[4771:427412] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (0)> pid 0 -> 4775
+00:20:20.156 XCTRunner[4771:427412] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> application state Not Running (1) -> Running Inactive (2)
+00:20:20.157 XCTRunner[4771:427411] Monitor: set <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> for pid 4775
+00:20:20.310 XCTRunner[4771:427412] <XCTWaiter: 0x608000000a60>: cancelWaiting
+00:20:20.310 XCTRunner[4771:427115] <XCTWaiter: 0x608000000a60> done waiting
+00:20:20.310 XCTRunner[4771:427410] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> eventLoopHasIdled 0 -> 1
+00:20:20.310 XCTRunner[4771:427115] <XCTWaiter: 0x608000000a60> cleaning up Expect predicate `BLOCKPREDICATE(0x600000047380)` for object BLOCKPREDICATE(0x600000047380)
+00:20:20.310 XCTRunner[4771:427115] <XCTWaiter: 0x600000001600> entering wait loop for 60.00s
+00:20:20.310 XCTRunner[4771:427407] <XCTWaiter: 0x600000001600>: cancelWaiting
+00:20:20.310 XCTRunner[4771:427115] <XCTWaiter: 0x600000001600> done waiting
+00:20:20.310 XCTRunner[4771:427115] <XCTWaiter: 0x600000001600> cleaning up Expect predicate `BLOCKPREDICATE(0x600000047bf0)` for object BLOCKPREDICATE(0x600000047bf0)
+00:20:20.310 XCTRunner[4771:427115] _currentProcess <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> state is 2, pid is 4775
+00:20:20.311 XCTRunner[4771:427115] Activating <NSRunningApplication: 0x600000101b00 (net.troz.High-Roller - 4775)> via NSWorkspace
+00:20:20.311 XCTRunner[4771:427115] Waiting for <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app> to be running-active
+00:20:20.312 XCTRunner[4771:427115] <XCTWaiter: 0x600000001580> entering wait loop for 60.00s
+00:20:20.424 XCTRunner[4771:427115] KV observed state change for <NSRunningApplication: 0x6000001041d0 (net.troz.High-Roller - 4775)>
+00:20:20.425 XCTRunner[4771:427115] Done setting pid for <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app> to 4775
+00:20:20.425 XCTRunner[4771:427115] Updated <XCUIApplicationImpl: 0x608000034a40 net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app>
+00:20:20.426 XCTRunner[4771:427407] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> application state Running Inactive (2) -> Running Active (3)
+00:20:20.426 XCTRunner[4771:427406] <XCTWaiter: 0x600000001580>: cancelWaiting
+00:20:20.426 XCTRunner[4771:427115] <XCTWaiter: 0x600000001580> done waiting
+00:20:20.426 XCTRunner[4771:427115] <XCTWaiter: 0x600000001580> cleaning up Expect predicate `BLOCKPREDICATE(0x600000046b70)` for object BLOCKPREDICATE(0x600000046b70)
+00:20:20.431 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] will start activity 37C585E5-C51C-4B8F-8144-7189AA171F76:'Wait for app to idle'
+00:20:20.426 XCTRunner[4771:427115] -[High_RollerUITests testExample] started activity <XCActivityRecord: 0x6000000a2400> 2017-08-19 23:20:20 +0000: Wait for app to idle
+00:20:20.429 XCTRunner[4771:427412] Monitor: tracking launch request for <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)>
+00:20:20.660 XCTRunner[4771:427115] Waiting for app quiescence...
+00:20:20.660 XCTRunner[4771:427406] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> eventLoopHasIdled 1 -> 0
+00:20:20.661 XCTRunner[4771:427115] <XCTWaiter: 0x600000001470> entering wait loop for 60.00s
+00:20:20.661 XCTRunner[4771:427407] <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)> eventLoopHasIdled 0 -> 1
+00:20:20.662 XCTRunner[4771:427409] <XCTWaiter: 0x600000001470>: cancelWaiting
+00:20:20.662 XCTRunner[4771:427115] <XCTWaiter: 0x600000001470> done waiting
+00:20:20.662 XCTRunner[4771:427115] <XCTWaiter: 0x600000001470> cleaning up Expect predicate `BLOCKPREDICATE(0x600000048220)` for object BLOCKPREDICATE(0x600000048220)
+00:20:20.662 XCTRunner[4771:427115] App has quiesced or quiescence timeout has elapsed.
+00:20:20.662 XCTRunner[4771:427115] -[High_RollerUITests testExample] finished activity <XCActivityRecord: 0x6000000a2400> 2017-08-19 23:20:20 +0000: Wait for app to idle (0.235875s)
+00:20:20.670 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] did finish activity 37C585E5-C51C-4B8F-8144-7189AA171F76:'Wait for app to idle'
+00:20:20.665 XCTRunner[4771:427115] done launching and has quiesced
+00:20:20.665 XCTRunner[4771:427115] -[High_RollerUITests testExample] finished activity <XCActivityRecord: 0x6080000a1560> 2017-08-19 23:20:18 +0000: Launch net.troz.High-Roller (2.54362s)
+00:20:20.678 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] did finish activity ECBCBD54-1956-4E01-8086-8C5A58702582:'Launch net.troz.High-Roller'
+00:20:20.670 XCTRunner[4771:427115] -[High_RollerUITests testExample] finished activity <XCActivityRecord: 0x6000000a0fc0> 2017-08-19 23:20:18 +0000: Set Up (2.55139s)
+00:20:20.681 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] did finish activity 2105A9D4-DAAD-4EBB-A362-5D698709BAE5:'Set Up'
+00:20:20.781 XCTRunner[4771:427115] -[High_RollerUITests testExample] started activity <XCActivityRecord: 0x6080000a13e0> 2017-08-19 23:20:20 +0000: Tear Down
+00:20:20.782 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] will start activity 71E91F7A-07DB-4504-8174-45FFBBBBB648:'Tear Down'
+00:20:20.782 XCTRunner[4771:427115] -[High_RollerUITests testExample] finished activity <XCActivityRecord: 0x6080000a13e0> 2017-08-19 23:20:20 +0000: Tear Down (0.000692964s)
+00:20:20.782 Xcode[3084:352963] -[High_RollerUITests.High_RollerUITests testExample] did finish activity 71E91F7A-07DB-4504-8174-45FFBBBBB648:'Tear Down'
+00:20:20.782 XCTRunner[4771:427407] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)>
+00:20:20.785 XCTRunner[4771:427115] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)>
+00:20:20.785 XCTRunner[4771:427115] <XCTWaiter: 0x608000000690> entering wait loop for 0.20s
+00:20:21.003 XCTRunner[4771:427115] <XCTWaiter: 0x608000000690> done waiting
+00:20:21.004 XCTRunner[4771:427115] <XCTWaiter: 0x608000000690> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6080000c28b0 net.troz.High-Roller (4775)>
+00:20:21.004 XCTRunner[4771:427115] Monitor: done waiting for state changes to launched application(s)
+00:20:21.004 XCTRunner[4771:427115] -[XCTRunnerIDESession testCaseDidFinish:]
+00:20:21.006 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:High_RollerUITests.High_RollerUITests method:testExample withStatus:passed duration:2.88835597038269
+    t =     0.00s     Start Test at 2017-08-20 00:20:18.117
+    t =     0.00s     Set Up
+    t =     0.01s         Launch net.troz.High-Roller
+    t =     2.31s             Wait for app to idle
+    t =     2.66s     Tear Down
+Test Case '-[High_RollerUITests.High_RollerUITests testExample]' passed (2.888 seconds).
+Test Suite 'High_RollerUITests' passed at 2017-08-20 00:20:21.006.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.888 (2.890) seconds
+Test Suite 'High RollerUITests.xctest' passed at 2017-08-20 00:20:21.007.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.888 (2.892) seconds
+00:20:21.006 XCTRunner[4771:427115] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:20:21.036 Xcode[3084:352963] _XCT_testSuite:High_RollerUITests didFinishAt:2017-08-19 23:20:21 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:2.88835597038269 totalDuration:2.889830052852631
+00:20:21.007 XCTRunner[4771:427115] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:20:21.036 Xcode[3084:352963] _XCT_testSuite:High RollerUITests.xctest didFinishAt:2017-08-19 23:20:21 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:2.88835597038269 totalDuration:2.891630947589874
+00:20:21.008 XCTRunner[4771:427115] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:20:21.036 Xcode[3084:352963] _XCT_testSuite:All tests didFinishAt:2017-08-19 23:20:21 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:2.88835597038269 totalDuration:2.893454968929291
+00:20:21.008 XCTRunner[4771:427115] Finished running suite.
+00:20:21.008 XCTRunner[4771:427115] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+00:20:21.009 XCTRunner[4771:427115] Calling completion.
+00:20:21.036 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+00:20:21.009 XCTRunner[4771:427115] <XCTWaiter: 0x6080000006b0> entering wait loop for 15.00s
+00:20:21.042 Xcode[3084:426664] Testing transport with socket 60 disconnected
+00:20:21.043 Xcode[3084:426664] Unlinking /tmp/XCTest-I92bwL
+00:20:21.125 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0afc57e50: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b0181e40: subtrackers=none>"
+)> is not finished
+00:20:21.127 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0afc57e50: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b0181e40: subtrackers=none>"
+)> is not finished
+Test Suite 'All tests' passed at 2017-08-20 00:20:21.008.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.888 (2.893) seconds
+00:20:21.223 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0afc57e50: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b0181e40: subtrackers=none>"
+)> is not finished
+00:20:21.284 Xcode[3084:352963] Observed termination of tracker for token 3 for launch of net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app
+00:20:21.285 Xcode[3084:352963] _finishWithError:(null) didCancel: 0

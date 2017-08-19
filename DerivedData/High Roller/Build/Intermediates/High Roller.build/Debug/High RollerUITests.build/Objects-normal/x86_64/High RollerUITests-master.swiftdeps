@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "13c174957d6706fe481713fd5557a90e"
+build_time: [556499897, 147396000]
+inputs:
+  "/Users/Ross/Downloads/High Roller - starter/High RollerUITests/High_RollerUITests.swift": [525339953, 0]

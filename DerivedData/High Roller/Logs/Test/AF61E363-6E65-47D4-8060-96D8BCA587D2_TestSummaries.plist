@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i5</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2900</integer>
+			<key>Identifier</key>
+			<string>D6B8C7F5-708F-56BE-857A-46AEC6E49B5D</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro12,1</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-13-retina-display</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.12.6</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.12.6 (16G29)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>2</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>My Mac</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i5</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2900</integer>
+			<key>Identifier</key>
+			<string>D6B8C7F5-708F-56BE-857A-46AEC6E49B5D</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro12,1</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-13-retina-display</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.12.6</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.12.6 (16G29)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>2</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>macosx10.12</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>macOS 10.12</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.12</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>High Roller.xcodeproj</string>
+			<key>TargetName</key>
+			<string>High RollerTests</string>
+			<key>TestName</key>
+			<string>High RollerTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>0.42108500003814697</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>0.41976702213287354</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.41834098100662231</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>0.1167830228805542</real>
+											<key>TestIdentifier</key>
+											<string>DiceTests/testExample()</string>
+											<key>TestName</key>
+											<string>testExample()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>515A2CF4-F8DF-4D51-850D-05B83B393D0F</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>0.30041199922561646</real>
+											<key>PerformanceMetrics</key>
+											<array>
+												<dict>
+													<key>Identifier</key>
+													<string>com.apple.XCTPerformanceMetric_WallClockTime</string>
+													<key>MaxPercentRegression</key>
+													<integer>10</integer>
+													<key>MaxPercentRelativeStandardDeviation</key>
+													<integer>10</integer>
+													<key>MaxRegression</key>
+													<real>0.10000000000000001</real>
+													<key>MaxStandardDeviation</key>
+													<real>0.10000000000000001</real>
+													<key>Measurements</key>
+													<array>
+														<real>1.4714e-05</real>
+														<real>2.7530000000000002e-06</real>
+														<real>8.3600000000000002e-07</real>
+														<real>4.6400000000000003e-07</real>
+														<real>3.5400000000000002e-07</real>
+														<real>2.4600000000000001e-07</real>
+														<real>2.6e-07</real>
+														<real>3.2500000000000001e-07</real>
+														<real>4.46e-07</real>
+														<real>2.35e-07</real>
+													</array>
+													<key>Name</key>
+													<string>Time</string>
+													<key>UnitOfMeasurement</key>
+													<string>seconds</string>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>DiceTests/testPerformanceExample()</string>
+											<key>TestName</key>
+											<string>testPerformanceExample()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>DF98F4C9-5338-4CB4-B851-9CC7E0656911</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>DiceTests</string>
+									<key>TestName</key>
+									<string>DiceTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>High RollerTests.xctest</string>
+							<key>TestName</key>
+							<string>High RollerTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ProjectPath</key>
+			<string>High Roller.xcodeproj</string>
+			<key>TargetName</key>
+			<string>High RollerUITests</string>
+			<key>TestName</key>
+			<string>High RollerUITests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>2.8934549689292908</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>2.8916309475898743</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>2.8898300528526306</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>FinishTimeInterval</key>
+													<real>524877618.11754298</real>
+													<key>StartTimeInterval</key>
+													<real>524877618.11682999</real>
+													<key>Title</key>
+													<string>Start Test at 2017-08-20 00:20:18.117</string>
+													<key>UUID</key>
+													<string>F4A7C336-73EA-4999-AA62-1F5C56DB95E8</string>
+												</dict>
+												<dict>
+													<key>FinishTimeInterval</key>
+													<real>524877620.67044502</real>
+													<key>StartTimeInterval</key>
+													<real>524877618.11905003</real>
+													<key>SubActivities</key>
+													<array>
+														<dict>
+															<key>FinishTimeInterval</key>
+															<real>524877620.66496301</real>
+															<key>HasScreenshotData</key>
+															<true/>
+															<key>StartTimeInterval</key>
+															<real>524877618.12134099</real>
+															<key>SubActivities</key>
+															<array>
+																<dict>
+																	<key>FinishTimeInterval</key>
+																	<real>524877620.66215998</real>
+																	<key>HasScreenshotData</key>
+																	<true/>
+																	<key>StartTimeInterval</key>
+																	<real>524877620.42628503</real>
+																	<key>Title</key>
+																	<string>Wait for app to idle</string>
+																	<key>UUID</key>
+																	<string>37C585E5-C51C-4B8F-8144-7189AA171F76</string>
+																</dict>
+															</array>
+															<key>Title</key>
+															<string>Launch net.troz.High-Roller</string>
+															<key>UUID</key>
+															<string>ECBCBD54-1956-4E01-8086-8C5A58702582</string>
+														</dict>
+													</array>
+													<key>Title</key>
+													<string>Set Up</string>
+													<key>UUID</key>
+													<string>2105A9D4-DAAD-4EBB-A362-5D698709BAE5</string>
+												</dict>
+												<dict>
+													<key>FinishTimeInterval</key>
+													<real>524877620.78160298</real>
+													<key>StartTimeInterval</key>
+													<real>524877620.78091002</real>
+													<key>Title</key>
+													<string>Tear Down</string>
+													<key>UUID</key>
+													<string>71E91F7A-07DB-4504-8174-45FFBBBBB648</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>2.8883559703826904</real>
+											<key>TestIdentifier</key>
+											<string>High_RollerUITests/testExample()</string>
+											<key>TestName</key>
+											<string>testExample()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>54CADCF9-7521-4CFE-AB9B-BD4A44ADAE30</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>High_RollerUITests</string>
+									<key>TestName</key>
+									<string>High_RollerUITests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>High RollerUITests.xctest</string>
+							<key>TestName</key>
+							<string>High RollerUITests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

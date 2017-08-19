@@ -48,6 +48,15 @@ class DiceTests: XCTestCase {
         
         XCTAssertNotNil(testDie.value)
       }
+      
+      func testDiceRoll_ShouldBeFromOneToSix() {
+        var testDie = Dice()
+        testDie.rollDie()
+        
+        XCTAssertTrue(testDie.value! >= 1)
+        XCTAssertTrue(testDie.value! <= 6)
+        XCTAssertFalse(testDie.value == 0)
+      }
 
     }
 

@@ -1,0 +1,114 @@
+00:11:14.925 Xcode[3084:352963] Beginning test session High RollerTests-C3EE4944-003F-4E22-9050-47CEE5DD0F80 at 2017-08-20 00:11:14.924 with Xcode 8E3004b on target <DVTLocalComputer: 0x7ff0ad072260 (My Mac | x86_64h)> (10.12.6 (16G29))
+00:11:14.925 Xcode[3084:352963] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:11:14.925 Xcode[3084:412798] Waiting for connection to unix domain socket at /tmp/XCTest-YrS79Y.
+00:11:22.791 Xcode[3084:352963] Launch session started.
+00:11:24.697 Xcode[3084:352963] Adding console adaptor <IDEConsoleAdaptor: 0x7ff0b1de60e0 'target'> for test session C3EE4944-003F-4E22-9050-47CEE5DD0F80.
+00:11:24.735 Xcode[3084:352963] Test process runnable PID is 4310.
+00:11:28.629 Xcode[3084:413343] Got a connection (socket 62), closing the listen socket now.
+00:11:28.630 Xcode[3084:413343] Setting up the socket transport for a test runner connection at /tmp/XCTest-YrS79Y
+00:11:28.630 Xcode[3084:413343] Received connection for test runner session
+00:11:28.630 Xcode[3084:413343] Listening for proxy connection request from the test bundle
+00:11:28.631 Xcode[3084:352963] Test runner session acquired connection.
+00:11:28.631 Xcode[3084:352963] Waiting for test process to check in..., will wait up to 120s
+00:11:28.631 Xcode[3084:414212] Handling proxy channel request from test runner
+00:11:28.632 Xcode[3084:414212] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+00:11:28.632 Xcode[3084:352963] Test runner session successfully initiated.
+00:11:28.628 High Roller[4310:414076] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Versions/A/XCTest, built with Xcode 0833(8E3002), modified on Thursday, 11 May 2017 at 06:10:43 British Summer Time
+00:11:28.628 High Roller[4310:414076] XCTest.framework bundle version: 12124
+00:11:28.629 High Roller[4310:414076] System uptime: 10:53:33
+00:11:28.629 High Roller[4310:414076] Process arguments: (
+    "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app/Contents/MacOS/High Roller",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+00:11:28.629 High Roller[4310:414076] Process environment: {
+    "Apple_PubSub_Socket_Render" = "/private/tmp/com.apple.launchd.CiOEVbjAmF/Render";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    HOME = "/Users/Ross";
+    LOGNAME = Ross;
+    MallocNanoZone = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+    PWD = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    SHELL = "/bin/bash";
+    "SSH_AUTH_SOCK" = "/private/tmp/com.apple.launchd.avhGn7S25t/Listeners";
+    TMPDIR = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/";
+    USER = Ross;
+    XCInjectBundleInto = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app/Contents/MacOS/High Roller";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/C3EE4944-003F-4E22-9050-47CEE5DD0F80/remote-container/tmp/High RollerTests-C3EE4944-003F-4E22-9050-47CEE5DD0F80.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "com.apple.dt.Xcode.12892";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0x0:0x2";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+}
+00:11:28.629 High Roller[4310:414076] Creating unix domain socket, will connect to path /tmp/XCTest-YrS79Y
+00:11:28.629 High Roller[4310:414076] Verifying path to socket /tmp/XCTest-YrS79Y (length 18)
+00:11:28.629 High Roller[4310:414076] Connecting to socket
+00:11:28.629 High Roller[4310:414076] Connected socket 9
+00:11:28.629 High Roller[4310:414076] Creating transport with socket 9
+00:11:28.630 High Roller[4310:414076] Creating connection with transport <DTXSocketTransport: 0x608000109120>
+00:11:28.630 High Roller[4310:414076] Creating the proxy channel with connection <DTXConnection 0x6080001e2c00 : x1>
+00:11:28.631 High Roller[4310:414076] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+00:11:28.631 High Roller[4310:414076] <XCTWaiter: 0x608000002490> entering wait loop for 30.00s
+00:11:28.632 High Roller[4310:414161] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+00:11:28.637 High Roller[4310:414174] _IDE_startExecutingTestPlanWithProtocolVersion:22
+00:11:28.638 High Roller[4310:414159] <XCTWaiter: 0x608000002490>: cancelWaiting
+00:11:28.638 High Roller[4310:414076] <XCTWaiter: 0x608000002490> done waiting
+00:11:28.638 High Roller[4310:414076] <XCTWaiter: 0x608000002490> cleaning up IDE session ready for test plan
+00:11:28.641 Xcode[3084:352963] Starting test plan, clearing initialization timeout timer.
+00:11:28.640 High Roller[4310:414076] Loading test suite...
+00:11:28.651 High Roller[4310:414076] Finished loading test suite, took 0.011s
+00:11:28.651 High Roller[4310:414076] -[XCTRunnerIDESession testBundleWillStart:]
+00:11:28.651 High Roller[4310:414076] Running suite...
+2017-08-20 00:11:27.491736+0100 High Roller[4310:414076] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to /var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/net.troz.High-Roller.savedState
+2017-08-20 00:11:27.572306+0100 High Roller[4310:414076] Failed to connect (getRollDataFromWebButton) outlet from (High_Roller.ViewController) to (NSButton): missing setter or instance variable
+Test Suite 'All tests' started at 2017-08-20 00:11:28.651
+00:11:28.651 High Roller[4310:414076] -[XCTRunnerIDESession testSuiteWillStart:]
+Test Suite 'High RollerTests.xctest' started at 2017-08-20 00:11:28.652
+00:11:28.652 Xcode[3084:352963] _XCT_testSuite:All tests didStartAt:2017-08-19 23:11:28 +0000
+00:11:28.760 Xcode[3084:412825] (LOG ARBITER) Dumping buffered message data; 0 messages.
+00:11:29.042 Xcode[3084:412815] (LOG ARBITER) Dumping buffered message data; 0 messages.
+Test Suite 'DiceTests' started at 2017-08-20 00:11:28.652
+00:11:28.652 High Roller[4310:414076] -[XCTRunnerIDESession testSuiteWillStart:]
+00:11:28.653 Xcode[3084:352963] _XCT_testSuite:High RollerTests.xctest didStartAt:2017-08-19 23:11:28 +0000
+00:11:28.653 Xcode[3084:352963] _XCT_testSuite:DiceTests didStartAt:2017-08-19 23:11:28 +0000
+00:11:28.652 High Roller[4310:414076] -[XCTRunnerIDESession testSuiteWillStart:]
+00:11:28.653 Xcode[3084:352963] _XCT_testCaseDidStartForTestClass:High_RollerTests.DiceTests method:testExample
+00:11:28.652 High Roller[4310:414076] -[XCTRunnerIDESession testCaseWillStart:] High_RollerTests.DiceTests testExample
+Test Case '-[High_RollerTests.DiceTests testExample]' started.
+00:11:28.754 High Roller[4310:414076] -[XCTRunnerIDESession testCaseDidFinish:]
+00:11:28.759 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:High_RollerTests.DiceTests method:testExample withStatus:passed duration:0.1016010046005249
+00:11:28.754 High Roller[4310:414076] -[XCTRunnerIDESession testCaseWillStart:] High_RollerTests.DiceTests testPerformanceExample
+00:11:28.760 Xcode[3084:352963] _XCT_testCaseDidStartForTestClass:High_RollerTests.DiceTests method:testPerformanceExample
+Test Case '-[High_RollerTests.DiceTests testExample]' passed (0.102 seconds).
+Test Case '-[High_RollerTests.DiceTests testPerformanceExample]' started.
+00:11:29.040 High Roller[4310:414076] -[XCTRunnerIDESession _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+00:11:29.041 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_testMethod:ofClass:didMeasureMetric:file:line:]_block_invoke
+/Users/Ross/Downloads/High Roller - starter/High RollerTests/DiceTests.swift:33: Test Case '-[High_RollerTests.DiceTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 124.000%, values: [0.000004, 0.000001, 0.000001, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+00:11:29.041 High Roller[4310:414076] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[High_RollerTests.DiceTests testPerformanceExample]' passed (0.287 seconds).
+Test Suite 'DiceTests' passed at 2017-08-20 00:11:29.041.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.388 (0.389) seconds
+00:11:29.042 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:High_RollerTests.DiceTests method:testPerformanceExample withStatus:passed duration:0.2868520021438599
+00:11:29.041 High Roller[4310:414076] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:11:29.042 Xcode[3084:352963] _XCT_testSuite:DiceTests didFinishAt:2017-08-19 23:11:29 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.3884530067443848 totalDuration:0.3893560171127319
+00:11:29.042 High Roller[4310:414076] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'High RollerTests.xctest' passed at 2017-08-20 00:11:29.042.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.388 (0.390) seconds
+00:11:29.043 Xcode[3084:352963] _XCT_testSuite:High RollerTests.xctest didFinishAt:2017-08-19 23:11:29 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.3884530067443848 totalDuration:0.3900200128555298
+00:11:29.042 High Roller[4310:414076] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:11:29.044 Xcode[3084:352963] _XCT_testSuite:All tests didFinishAt:2017-08-19 23:11:29 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.3884530067443848 totalDuration:0.3911510109901428
+00:11:29.042 High Roller[4310:414076] Finished running suite.
+00:11:29.044 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+00:11:29.042 High Roller[4310:414076] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+00:11:29.042 High Roller[4310:414076] Calling completion.
+00:11:29.043 High Roller[4310:414076] <XCTWaiter: 0x608000003760> entering wait loop for 15.00s
+00:11:29.044 Xcode[3084:352963] _finishWithError:(null) didCancel: 0

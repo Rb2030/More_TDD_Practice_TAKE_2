@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "c16ce71d26a1998f8bcb32fc1848b2e4"
+build_time: [556500011, 790936000]
+inputs:
+  "/Users/Ross/Downloads/High Roller - starter/High RollerTests/DiceTests.swift": [556500003, 0]

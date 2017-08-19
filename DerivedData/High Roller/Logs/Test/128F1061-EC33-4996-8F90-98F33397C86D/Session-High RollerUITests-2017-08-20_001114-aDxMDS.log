@@ -1,0 +1,174 @@
+00:11:14.932 Xcode[3084:352963] Beginning test session High RollerUITests-7EDE1B1C-DB07-4B5B-9FED-FA831AAB7524 at 2017-08-20 00:11:14.932 with Xcode 8E3004b on target <DVTLocalComputer: 0x7ff0ad072260 (My Mac | x86_64h)> (10.12.6 (16G29))
+00:11:14.932 Xcode[3084:352963] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:11:14.932 Xcode[3084:412388] Waiting for connection to unix domain socket at /tmp/XCTest-qnt0kD.
+00:11:29.316 Xcode[3084:352963] Launch session started.
+00:11:29.411 Xcode[3084:352963] Adding console adaptor <IDEConsoleAdaptor: 0x7ff0b1543950 'target'> for test session 7EDE1B1C-DB07-4B5B-9FED-FA831AAB7524.
+00:11:29.436 Xcode[3084:352963] Test process runnable PID is 4316.
+00:11:31.539 Xcode[3084:412825] Got a connection (socket 60), closing the listen socket now.
+00:11:31.539 Xcode[3084:412825] Setting up the socket transport for a test runner connection at /tmp/XCTest-qnt0kD
+00:11:31.539 Xcode[3084:412825] Received connection for test runner session
+00:11:31.539 Xcode[3084:412825] Listening for proxy connection request from the test bundle
+00:11:31.540 Xcode[3084:352963] Test runner session acquired connection.
+00:11:31.540 Xcode[3084:352963] Waiting for test process to check in..., will wait up to 120s
+00:11:31.541 Xcode[3084:412825] Handling proxy channel request from test runner
+00:11:31.541 Xcode[3084:412825] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+00:11:31.541 Xcode[3084:352963] Test runner session successfully initiated.
+00:11:31.541 Xcode[3084:413343] calling checkUITestingPermissionForXcodeUITestingAgentWithPrompt:NO
+00:11:31.551 Xcode[3084:412825] got reply to checkUITestingPermissionForXcodeUITestingAgentWithPrompt(NO): isPermitted:YES error:(null)
+00:11:31.585 Xcode[3084:412825] Successfully made Xcode Helper the responsible process for the test session.
+00:11:31.538 XCTRunner[4316:414253] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Versions/A/XCTest, built with Xcode 0833(8E3002), modified on Thursday, 11 May 2017 at 06:10:43 British Summer Time
+00:11:31.538 XCTRunner[4316:414253] XCTest.framework bundle version: 12124
+00:11:31.539 XCTRunner[4316:414253] System uptime: 10:53:35
+00:11:31.539 XCTRunner[4316:414253] Process arguments: (
+    "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High RollerUITests-Runner.app/Contents/MacOS/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+00:11:31.539 XCTRunner[4316:414253] Process environment: {
+    "APP_SANDBOX_CONTAINER_ID" = "com.apple.test.High-RollerUITests-Runner";
+    "Apple_PubSub_Socket_Render" = "/private/tmp/com.apple.launchd.CiOEVbjAmF/Render";
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Containers/com.apple.test.High-RollerUITests-Runner/Data";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    HOME = "/Users/Ross/Library/Containers/com.apple.test.High-RollerUITests-Runner/Data";
+    LOGNAME = Ross;
+    MallocNanoZone = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+    PWD = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    SHELL = "/bin/bash";
+    "SSH_AUTH_SOCK" = "/private/tmp/com.apple.launchd.avhGn7S25t/Listeners";
+    TMPDIR = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.test.High-RollerUITests-Runner/";
+    USER = Ross;
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/7EDE1B1C-DB07-4B5B-9FED-FA831AAB7524/remote-container/tmp/High RollerUITests-7EDE1B1C-DB07-4B5B-9FED-FA831AAB7524.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "com.apple.dt.Xcode.12892";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0x0:0x2";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug";
+}
+00:11:31.539 XCTRunner[4316:414253] Creating unix domain socket, will connect to path /tmp/XCTest-qnt0kD
+00:11:31.539 XCTRunner[4316:414253] Verifying path to socket /tmp/XCTest-qnt0kD (length 18)
+00:11:31.539 XCTRunner[4316:414253] Connecting to socket
+00:11:31.539 XCTRunner[4316:414253] Connected socket 3
+00:11:31.539 XCTRunner[4316:414253] Creating transport with socket 3
+00:11:31.539 XCTRunner[4316:414253] Creating connection with transport <DTXSocketTransport: 0x600000100120>
+00:11:31.540 XCTRunner[4316:414253] Creating the proxy channel with connection <DTXConnection 0x6000001e0300 : x1>
+00:11:31.540 XCTRunner[4316:414253] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+00:11:31.541 XCTRunner[4316:414253] <XCTWaiter: 0x608000000250> entering wait loop for 30.00s
+00:11:31.541 XCTRunner[4316:414296] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+00:11:31.586 XCTRunner[4316:414292] _IDE_startExecutingTestPlanWithProtocolVersion:22
+00:11:31.587 XCTRunner[4316:414296] <XCTWaiter: 0x608000000250>: cancelWaiting
+00:11:31.587 XCTRunner[4316:414253] <XCTWaiter: 0x608000000250> done waiting
+00:11:31.587 XCTRunner[4316:414253] <XCTWaiter: 0x608000000250> cleaning up IDE session ready for test plan
+00:11:31.593 Xcode[3084:352963] Starting test plan, clearing initialization timeout timer.
+00:11:31.592 XCTRunner[4316:414253] Initializing for UI testing.
+00:11:31.600 XCTRunner[4316:414253] Done initializing for UI testing.
+00:11:31.600 XCTRunner[4316:414253] Loading test suite...
+00:11:31.609 XCTRunner[4316:414253] Finished loading test suite, took 0.009s
+00:11:31.609 XCTRunner[4316:414253] -[XCTRunnerIDESession testBundleWillStart:]
+00:11:31.609 XCTRunner[4316:414253] Running suite...
+00:11:31.609 XCTRunner[4316:414253] -[XCTRunnerIDESession testSuiteWillStart:]
+00:11:31.610 Xcode[3084:352963] _XCT_testSuite:All tests didStartAt:2017-08-19 23:11:31 +0000
+00:11:31.612 Xcode[3084:412825] (LOG ARBITER) Rotating message buffer with 7 messages.
+00:11:34.611 Xcode[3084:414212] (LOG ARBITER) Rotating message buffer with 160 messages.
+00:11:34.612 Xcode[3084:414215] (LOG ARBITER) Dumping buffered message data; 167 messages.
+00:11:34.611 XCTRunner[4316:414253] <XCTWaiter: 0x600000000f30> done waiting
+00:11:34.611 XCTRunner[4316:414253] <XCTWaiter: 0x600000000f30> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6080000c26f0 net.troz.High-Roller (4321)>
+00:11:34.611 XCTRunner[4316:414253] Monitor: done waiting for state changes to launched application(s)
+00:11:34.611 XCTRunner[4316:414253] -[XCTRunnerIDESession testCaseDidFinish:]
+00:11:34.612 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:High_RollerUITests.High_RollerUITests method:testExample withStatus:passed duration:3.000128984451294
+    t =     0.00s     Start Test at 2017-08-20 00:11:31.611
+    t =     0.00s     Set Up
+    t =     0.00s         Launch net.troz.High-Roller
+    t =     2.52s             Wait for app to idle
+    t =     2.79s     Tear Down
+Test Case '-[High_RollerUITests.High_RollerUITests testExample]' passed (3.000 seconds).
+00:11:34.612 XCTRunner[4316:414253] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'High_RollerUITests' passed at 2017-08-20 00:11:34.612.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.000 (3.001) seconds
+Test Suite 'High RollerUITests.xctest' passed at 2017-08-20 00:11:34.612.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.000 (3.002) seconds
+00:11:34.613 Xcode[3084:352963] _XCT_testSuite:High_RollerUITests didFinishAt:2017-08-19 23:11:34 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:3.000128984451294 totalDuration:3.001169979572296
+00:11:34.612 XCTRunner[4316:414253] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:11:34.613 Xcode[3084:352963] _XCT_testSuite:High RollerUITests.xctest didFinishAt:2017-08-19 23:11:34 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:3.000128984451294 totalDuration:3.001962006092072
+00:11:34.613 XCTRunner[4316:414253] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:11:34.614 Xcode[3084:352963] _XCT_testSuite:All tests didFinishAt:2017-08-19 23:11:34 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:3.000128984451294 totalDuration:3.003430008888245
+00:11:34.613 XCTRunner[4316:414253] Finished running suite.
+00:11:34.613 XCTRunner[4316:414253] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+00:11:34.614 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+00:11:34.614 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.615 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.615 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.615 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.616 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.617 Xcode[3084:412825] Testing transport with socket 60 disconnected
+00:11:34.617 Xcode[3084:412825] Unlinking /tmp/XCTest-qnt0kD
+00:11:34.618 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.619 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.619 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.655 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.716 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+Test Suite 'All tests' passed at 2017-08-20 00:11:34.613.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.000 (3.003) seconds
+00:11:34.734 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.738 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.742 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.743 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.743 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.783 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b1e22880: Launch application net.troz.High-Roller for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b12e8b40: subtrackers=none>"
+)> is not finished
+00:11:34.812 Xcode[3084:352963] Observed termination of tracker for token 1 for launch of net.troz.High-Roller at /Users/Ross/Downloads/High Roller - starter/DerivedData/High Roller/Build/Products/Debug/High Roller.app
+00:11:34.814 Xcode[3084:352963] _finishWithError:(null) didCancel: 0

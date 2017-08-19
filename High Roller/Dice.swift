@@ -12,4 +12,8 @@ struct Dice {
   
    var value: Int?
   
+  mutating func rollDie() {
+    value = 0
+  }
+  
 }
